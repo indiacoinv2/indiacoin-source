@@ -1,0 +1,26 @@
+src/*.exe
+src/indiacoin
+src/indiacoind
+src/test_indiacoin
+src/build.h
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.indiacoin
+#compilation and Qt preprocessor part
+*.qm
+Makefile
+indiacoin-qt
+#resources cpp
+qrc_*.cpp
+#qt creator
+*.pro.user
+#mac specific
+.DS_Store
+build
+
+!src/leveldb/Makefile
